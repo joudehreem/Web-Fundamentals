@@ -1,0 +1,249 @@
+/* Author:Reem Jodueh
+Description: Style of Profile  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5e5a5a;
+}
+
+
+body {
+    background-color: #E7ECEF;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 0px 0px 130px;
+    color: #e8e0e0;
+
+
+}
+
+.container {
+    height: 70px;
+    background-color: #2b2d2d;
+    color: rgb(61, 110, 155);
+
+}
+
+.nav-title {
+    color: #e8e0e0;
+}
+
+.container,
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-links li {
+    list-style-type: none;
+    margin: 0px 0px 5px 30px;
+    color: #de2d2d;
+
+
+}
+
+/* need to change color  a */
+a {
+    text-decoration: none;
+    color: #e8e0e0;
+
+}
+
+a:hover {
+    color: rgb(181, 186, 186);
+}
+
+.btn {
+    color: #fefefe;
+    width: 80px;
+    height: 40px;
+    border: 2px black;
+    border-style: groove;
+    background-color: #6096BA;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 20px 150px;
+    border-bottom-right-radius: 150px 20PX;
+    border-top-left-radius: 150px 20px;
+    border-top-right-radius: 20px 150px;
+    box-shadow: black 3px 1px 0px 0px;
+    margin: 0px 200px 0px 0px;
+    cursor: pointer;
+}
+
+
+
+
+/* https://colorhunt.co/palette/92c7cfaad7d9fbf9f1e5e1da */
+
+.grid-container {
+    /* display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+    padding: 20px 100px 0px 0px; */
+    display: flex;
+
+}
+
+.card,
+.education {
+    background-color: #fefefe;
+    border: 2px solid #999;
+    margin: 1% 20% 0 19%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.profile_card {
+    background-color: #6096BA;
+    width: auto;
+    height: 115px;
+
+}
+
+
+.profile_img {
+    border-radius: 50%;
+    border: 3px solid;
+    box-shadow: 1px 1px 1px 1px;
+    border-color: #ffffff;
+    height: 160px;
+    margin: 25px 0px 0px 30px;
+
+}
+
+
+.card-contet {
+    padding: 75px 0 50px 50px;
+
+}
+
+.icons {
+    width: 25px;
+    margin: 0px 5px 0px 0px;
+}
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.headeredu {
+    background-color: #383839;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.contentedu {
+    margin: 10px 0px 0px 20px;
+    line-height: 30px;
+}
+
+
+
+.barsid {
+    margin: 10px 45px 20px 200px;
+
+}
+
+
+.textcont {
+    color: #E7ECEF;
+    background-color: #2b2d2d;
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+
+
+}
+
+.connectionreqs,
+.conections {
+
+    border: 2px solid #999;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+
+}
+
+.connectionreqs ,
+.conections  {
+    list-style-type: none;
+    color: #2b2d2d;
+    font-size: 20px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+
+.smallicon {
+    margin: 5px 10px 1px 10px;
+    text-align: center;
+    height: 30px;
+}
+
+
+
+.numConnection {
+    border: solid 5px #fefefe;
+    background-color: #fefefe;
+    border-radius: 100%;
+    margin: 0px 20px 10px 10px;
+    color: #8B8C89;
+}
+
+.viewmore {
+    color: #6096BA;
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+
+}
+
+
+
+.viewmore a {
+    color: #6096BA;
+
+}
+
+.clcircle,
+.accircle {
+    margin: 0px 0px 0px 58px;
+    width: 20px;
+}
+
+.clcircle2,
+.accircle2 {
+    margin: 0px 0px 0px 61px;
+    width: 20px;
+}

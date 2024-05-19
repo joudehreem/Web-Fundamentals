@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet"  href="style.css">
+</head>
+
+<body>
+  <div class="bar">
+    <h1>DojoWeather</h1>
+    <div class="city">
+      <a href="#" onclick="load()">Burbank</a>
+      <a href="#" onclick="load()">chicago</a>
+      <a href="#" onclick="load()">Dallas</a></div>
+    
+    <!-- <a href="#">Burbank</a></li>
+      <li>chicago</li>
+      <li>Dallas</li>
+    </ol> -->
+  </div>
+  <div class="main">
+    <div class="uppage">
+      <div>
+        <h1>San Jose</h1>
+      </div>
+      <div> 
+        Show temperature in 
+        <select id="tempUnit" onchange="changeTemperature()">
+          <option value="1">°C</option>
+          <option value="2">°F</option>
+        </select></div>
+    </div>
+    <div class="centerpage">
+      <div class="weather">
+        <h2>Today</h2>
+        <img src="some_rain.png" alt="Rain">
+        <h4>Some rain</h4>
+        <div  class="degree" id="degree1">
+          <h3 class="high">24°</h3>
+          <h3 class="low">18°</h3>
+        </div>
+      </div>
+      <div class="weather">
+        <h2>Tomorrow</h2>
+        <img src="some_sun.png" alt="Sun">
+        <h4>Some sun</h4>
+        <div class="degree" id="degree2">
+          <h3 class="high">27°</h3>
+          <h3 class="low">19°</h3>
+        </div>
+      </div>
+        <div class="weather">
+          <h2>Friday</h2>
+          <img src="some_clouds.png" alt="Clouds">
+          <h4>Some clouds</h4>
+          <div class="degree"  id="degree3">
+            <h3 class="high">21°</h3>
+            <h3 class="low">16°</h3>
+          </div>
+        </div>
+          <div class="weather">
+            <h2>Saturday</h2>
+            <img src="some_sun.png" alt="Sun">
+            <h4>Some sun</h4>
+            <div class="degree"  id="degree4">
+              <h3 class="high">26°</h3>
+              <h3 class="low">21°</h3>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div id="cookieBanner" class="cookie" >
+        <img src="cookie.png" alt="cookie">
+        <div><h3>Stop! Cookie time</h3>
+          <h4> We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyes our traffic. <a href="#">Read More ...</a>  </h4></div>
+          <div class="button">
+            <button onclick="accept()">I Accept</button>
+          </div>
+      </div>
+<script src="javascript.js"></script>
+      
+</body>
+
+</html>

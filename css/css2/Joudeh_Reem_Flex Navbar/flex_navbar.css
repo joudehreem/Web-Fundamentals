@@ -1,0 +1,48 @@
+/* Aurthor: Reem Joudeh
+Desciption:The flexnavbae */
+.nav {
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    background-color: #434242;
+    color: aliceblue;
+    padding: 0px 0px 0px 20px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+
+
+}
+
+li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(163, 174, 184);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.btn {
+    border: 5px black;
+    border-style: groove;
+    background-color: #17a2b8;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-left-radius: 20px 150px;
+    border-bottom-right-radius: 150px 20PX;
+    border-top-left-radius: 150px 20px;
+    border-top-right-radius: 20px 150px;
+    box-shadow: black 3px 1px 0px 0px;
+}

@@ -1,0 +1,73 @@
+.block {
+    height: 50px;
+    width: 200px;
+    background-color: silver;
+    border: 1px dotted black;
+}
+
+   .example {
+        color: blueviolet;
+        font-size: 100px;
+    }
+    .reem{
+        color: palevioletred;
+    }
+    #hello{
+        color: aquamarine;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: brown;
+    }
+  
+    .quote>p {
+        color: rgb(117, 221, 221);
+        font-style: italic;
+    }
+
+
+      /* *{
+        color: blue;
+        outline: 1px solid red;
+    } */
+        input {
+        padding: 5px;
+        border-color: rebeccapurple;
+    }
+    input[type="text"] {
+        border: none;
+        border-bottom: 2px solid rebeccapurple;
+    }
+    input[type="submit"] {
+        color: white;
+        background-color: rebeccapurple;
+    }
+    .Dojo {
+    color: cyan;
+    background-color: grey;
+    }
+    p {
+        background: #ffffff url("sc.png") no-repeat fixed center;
+    }
+
+    /* p {
+        background-color: blue;
+    } */
+    /* p {
+        background-image: url("sc.png");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    } */
+
+    /* button {
+        border: 2px dotted green;
+    } */
+    /* p {
+        border: 1px solid #000000;
+    } */
+    p {
+        border-right: 10px groove rgb(100,100,100);
+        border-left: 10px groove rgb(200,200,200);
+    }
+
+
+

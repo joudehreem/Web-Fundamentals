@@ -1,0 +1,58 @@
+/* Author:Reem Joudeh
+Description:Style of User Card */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin: 10% 0 0 25%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 80%;
+    width:50% ;
+}
+
+.profile_card {
+    background-color: #AAD7D9;
+    width: auto;
+    height: 200px;
+
+}
+
+
+.profile_img {
+    border-radius: 50%;
+    border: 3px solid;
+    box-shadow: 1px 1px 1px 1px;
+    border-color: #ffffff;
+    height: 160px;
+    position: relative;
+    top:70px;
+
+
+}
+
+
+.card-contet {
+    background-color: #FBF9F1;
+    padding:75px 0 50px 50px;
+
+}
+.icons {
+    width: 25px;
+    margin: 0px 5px 0px 0px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+
+}
+
+.experince  {
+    margin: 0px 0px 0px 30px;
+}

@@ -1,0 +1,62 @@
+
+
+/*
+Theme Name: Remm Theme
+Description: ......
+Author: Reem 
+Author URL: https://github...
+Tags: Business, Website,...
+*/
+
+*{
+    font-family:cursive;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mycloud{
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin: 30px;
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+    box-sizing: border-box;
+
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+  }
+  
+span{
+    color: aqua;
+
+}
+
+.completeprojects{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.contactus{
+    background-color:#9fc5f8;
+    text-decoration: underline;
+    text-align: right;
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+
+}

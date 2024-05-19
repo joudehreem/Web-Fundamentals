@@ -1,0 +1,74 @@
+/* Author:Reem Joudeh
+Description: Style of Dojonary */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    padding: 20px;
+    background-color: rgb(176, 176, 176);
+}
+
+input[type="search"] {
+
+    width: 300px;
+
+}
+
+.logain {
+    color: aliceblue;
+    background-color: rgb(0, 119, 255);
+    border: solid black;
+    width: 60px;
+    height: 30px;
+    box-shadow: 3px 3px 3px;
+}
+
+.container {
+    display: flex;
+}
+
+.defnation1,
+.defnation2 {
+
+    border: solid 3px black;
+    margin: 50px 0px 0px 70px;
+    padding: 20px 50px 0px 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.likes {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    border: solid black;
+    width: 60px;
+    height: 30px;
+    box-shadow: 3px 3px 3px;
+    margin: 10px 0px 10px 10px;
+}
+
+.thesidebox {
+    border: solid 3px black;
+    margin: 50px 200px;
+    padding: 20px;
+    width: 20%;
+    height: 50%;
+}
+
+.add {
+    color: rgb(0, 0, 0);
+    background-color: rgb(32, 158, 13);
+    border: solid black;
+    width: 120px;
+    height: 40px;
+    box-shadow: 3px 3px 3px;
+    margin: 10px;
+}

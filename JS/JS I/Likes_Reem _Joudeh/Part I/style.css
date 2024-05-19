@@ -1,0 +1,25 @@
+
+/* Author: Reem Joudeh
+Description: Style of Part I like  */
+.post{
+  border: solid 2px;
+  padding: 30px;
+  margin: 50px;
+  width: 250px;
+
+}
+
+
+.post div{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#like{
+
+  width: 40px;
+  height: 20px;
+  background-color: yellow;
+  box-shadow: 2px 2px 2px;
+  margin: 20px 0 0 20px ;
+}  

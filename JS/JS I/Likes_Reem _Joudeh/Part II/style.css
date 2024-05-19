@@ -1,0 +1,66 @@
+/* Author: Reem Joudeh
+Description: Style The page of Feed */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.bar {
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-size: 40px;
+  margin: 0px 150px;
+
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.mainpage {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 0px auto; */
+}
+
+.profile {
+  border: solid 2px;
+  text-align: center;
+  height: 200px;
+  /* padding: 0px 30px 50px 30px; */
+  width: 20%;
+
+}
+
+.profile img {
+  width: 120px;
+}
+
+.profile a {
+  display: block;
+}
+
+.post {
+  border: solid 2px;
+  margin: 5px 20px 30px 0px;
+  padding: 30px;
+
+
+}
+
+.info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#like,
+#like2,
+#like3 {
+
+  width: 40px;
+  background-color: yellow;
+  box-shadow: 2px 2px 2px;
+  margin: 0 0 0 20px;
+}

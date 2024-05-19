@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1> 
+            <div> 
+                First Name:*<input type="text" name="first_name">
+            </div>
+            <div> 
+                Last Name:* <input type="text" name="last_name">
+            </div>
+            <div> 
+                Email Address:* <input type="email" name="email">
+            </div>
+            <div> 
+                Password: * <input type="password" name="password">
+            </div>
+            <div>
+                    Conformation Password: * <input type="password" name="conformation_password">
+            </div> 
+            <div>
+                Birthday: <input type="date" name="Birthday">
+            </div>
+            <div>
+                Gender Identify:<br>
+                <input type="radio" name="gender_id1" id="gender_id1">
+                    <label for="gender_id1">Male</label>   
+                <input type="radio" name="gender_id2" id="gender_id2">
+                    <label for="gender_id2">Female</label>
+                <input type="radio" name="gender_id3" id="gender_id3">
+                    <label for="gender_id3">Non-binary</label>
+                <input type="radio" name="gender_id4" id="gender_id4">
+                    <label for="gender_id4">I prefer not answer</label>
+            </div>
+            <div>
+                A Short description about myself:<br>
+                <textarea name="text" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+                Favorite Language:
+                    <select name="fav_lang">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="HTML">HTML</option>
+                        <option value="Paython">Paython</option>
+                    </select>
+            </div>
+            <div>
+                <input type="checkbox" name="agree" checked>Yes,I would like to receive periodic email updates
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Create Account">
+            </div>
+            <p>* Indicates a required field </p>
+</body>
+</html>

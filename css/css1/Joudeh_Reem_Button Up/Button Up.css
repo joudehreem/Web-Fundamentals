@@ -1,0 +1,43 @@
+* {
+    font-family: Arial;
+    font-size: 16px;
+    
+}
+button{
+    margin: 10px 0px 0px 60px;
+    border:solid;
+    cursor: pointer;
+    display: block;
+}
+.searchbutton{
+    color: #0dc9b1;
+    border-color: #0dc9b1;    
+    border-radius: 20px;
+    width: 150px;  
+    height: 90%;  
+}
+.plusbutton{
+    color:aliceblue;
+    background-color: #0dc9b1;
+    border-color: #0dc9b1;
+    border-radius: 50%;
+    font-weight: bold;
+} 
+.createbutton{
+    color: aliceblue;
+    background-color: #2b78e4 ;
+    border-color: black;
+    width: 150px;
+    height: 30px; 
+    box-shadow: 2px 4px 2px 2px black;
+}
+
+p {
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+  }
+  

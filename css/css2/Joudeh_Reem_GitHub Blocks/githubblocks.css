@@ -1,0 +1,35 @@
+/* Author:Reem Joudeh
+Description:GitHub Blocks Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.octocat img {
+    height: 200px;
+}
+
+.octocat {
+    background-color:#f1f3ff;
+    text-align: center;
+
+}
+
+.img {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+}
+
+.octocatb1 {
+    background-color: #4cc7dc
+    ;
+}
+
+.octocatb2 {
+    background-color: #d8a2bb;
+}
+
+.octocatb3 {
+    background-color: white;
+}
